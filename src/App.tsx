@@ -5,8 +5,8 @@ import { Button } from './components/ui/button'
 function App() {
   return (  
     <main className="flex min-h-screen flex-col justify-between">
-      <div className="bg-black text-white">
-        <header className="flex items-center justify-between p-4 bg-[#1a1a1a]">
+      <div className="bg-background text-white">
+        <header className="flex items-center justify-between p-4 bg-background_light">
           <div className="flex items-center">
             <img
               src="/placeholder.svg"
@@ -43,13 +43,13 @@ function App() {
             />
             <h1 className="absolute bottom-4 left-4 text-3xl font-bold">Luján y Los Psicodélicos</h1>
           </section>
-          <section id="spotify" className="p-4 bg-[#2a2a2a] rounded-lg">
+          <section id="spotify" className="p-4 bg-background_light rounded-lg">
             <h2 className="text-2xl font-bold text-cyan-400">Spotify</h2>
             <div className="mt-4">
               <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/5CaZWiLNp9aFDhqNEktbuH?utm_source=generator" width="100%" height="352" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
           </section>
-          <section id="concerts" className="p-4 bg-[#2a2a2a] rounded-lg">
+          <section id="concerts" className="p-4 bg-background_light rounded-lg">
             <h2 className="text-2xl font-bold text-cyan-400">Conciertos</h2>
             <div className="grid grid-cols-1 gap-4 mt-4 md:grid-cols-2">
               <div className="p-4 bg-[#1a1a1a] rounded-lg">
@@ -57,19 +57,9 @@ function App() {
                 <p className="mt-2 text-sm text-gray-400">Sat, Jul 24</p>
                 <Button className="mt-4">Comprar</Button>
               </div>
-{/*               <div className="p-4 bg-[#1a1a1a] rounded-lg">
-                <h3 className="text-xl font-bold">Breaking with the Blues</h3>
-                <p className="mt-2 text-sm text-gray-400">Wed, Aug 18</p>
-                <Button className="mt-4">Comprar</Button>
-              </div>
-              <div className="p-4 bg-[#1a1a1a] rounded-lg">
-                <h3 className="text-xl font-bold">All Night Synth Party</h3>
-                <p className="mt-2 text-sm text-gray-400">Mon, Sep 20</p>
-                <Button className="mt-4">Comprar</Button>
-              </div> */}
             </div>
           </section>
-          <section id="gallery" className="p-4 bg-[#2a2a2a] rounded-lg">
+          <section id="gallery" className="p-4 bg-background_light rounded-lg">
             <h2 className="text-2xl font-bold">Galería</h2>
             <div className="grid grid-cols-1 gap-4 mt-4 md:grid-cols-2">
               <img
@@ -90,7 +80,7 @@ function App() {
               />
             </div>
           </section>
-          <section id="members" className="flex flex-col bg-[#2a2a2a] rounded-lg">
+          <section id="members" className="flex flex-col bg-background_light rounded-lg">
             <h2 className="text-2xl font-bold text-cyan-400">Integrantes</h2>
             <div className="flex flex-row justify-around w-full">
               <Member name="lujan" rol="cantante" instagram="ig" />
@@ -100,7 +90,7 @@ function App() {
               <Member name="lujan" rol="cantante" instagram="ig" />
             </div>
           </section>
-          <section id="contact" className="p-4 bg-[#2a2a2a] rounded-lg">
+          <section id="contact" className="p-4 bg-background_light rounded-lg">
             <h2 className="text-2xl font-bold text-cyan-400">Contacto</h2>
             <div className="grid grid-cols-1 gap-4 mt-4 md:grid-cols-2">
               <img
