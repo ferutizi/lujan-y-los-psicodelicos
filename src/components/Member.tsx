@@ -13,7 +13,7 @@ export default function Member({name, rol, instagram}: MemberProps) {
         <img src="/placeholder-user.jpg" alt="Member 1" />
         <div>
           <h2>{name}</h2>
-          <h3 className="mt-2 text-lg font-bold text-pink-500">{rol}</h3>
+          <h3 className="mt-2 text-lg font-bold text-primary_dark">{rol}</h3>
           <a href={`/${instagram}`}>
             <InstagramIcon />
           </a>
