@@ -2,7 +2,7 @@ import { Button } from "../ui/button";
 
 export default function Concerts() {
   return(
-    <section id="concerts" className="p-4 bg-background_light rounded-lg">
+    <section id="concerts" className="p-4 bg-background_light rounded-lg col-span-4 row-span-3">
       <h2 className="text-2xl font-bold text-cyan-400">Conciertos</h2>
       <div className="grid grid-cols-1 gap-4 mt-4 md:grid-cols-2">
         <div className="p-4 bg-[#1a1a1a] rounded-lg">

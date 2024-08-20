@@ -4,6 +4,7 @@ import Concerts from './components/sections/Concerts'
 import Gallery from './components/sections/Gallery'
 import Members from './components/sections/Members'
 import Contact from './components/sections/Contact'
+import Interviews from './components/sections/Interviews'
 
 function App() {
   return (  
@@ -38,8 +39,11 @@ function App() {
         <main className="space-y-8 p-4">
           <CarouselCover />
           <Music />
-          <Concerts />
-          <Gallery />
+          <div className="grid grid-cols-7 grid-rows-3 gap-4">
+            <Concerts />
+            <Gallery />
+            <Interviews />
+          </div>
           <Members />
           <Contact />
         </main>

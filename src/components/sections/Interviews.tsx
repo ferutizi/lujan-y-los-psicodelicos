@@ -1,7 +1,7 @@
-export default function Gallery() {
+export default function Interviews() {
   return(
-    <section id="gallery" className="p-4 bg-background_light rounded-lg col-span-3 row-span-2 col-start-5">
-      <h2 className="text-2xl font-bold">Galería</h2>
+    <section id="interviews" className="col-span-3 col-start-5 row-start-3">
+      <h2 className="text-2xl font-bold">Entrevistas</h2>
       <div className="grid grid-cols-1 gap-4 mt-4 md:grid-cols-2">
         <img
           src="/placeholder.svg"

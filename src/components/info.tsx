@@ -9,15 +9,3 @@ export default function info() {
     </div>
   )  
 }
-
-/* 
-
-
-<div className="grid grid-cols-7 grid-rows-3 gap-4">
-    <div className="col-span-4 row-span-3">3</div>
-    <div className="col-span-3 row-span-2 col-start-5">4</div>
-    <div className="col-span-3 col-start-5 row-start-3">5</div>
-</div>
-    
-        
-*/
