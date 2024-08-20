@@ -38,13 +38,15 @@ function App() {
         </header>
         <main className="space-y-8 p-4">
           <CarouselCover />
-          <Music />
-          <div className="grid grid-cols-7 grid-rows-3 gap-4">
-            <Concerts />
-            <Gallery />
-            <Interviews />
+          <div className='max-w-[1280px] flex flex-col my-0 mx-auto gap-4'>
+            <Music />
+            <div className="grid grid-cols-7 grid-rows-3 gap-4">
+              <Concerts />
+              <Gallery />
+              <Interviews />
+            </div>
+            <Members />
           </div>
-          <Members />
           <Contact />
         </main>
       </div>
