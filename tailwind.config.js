@@ -25,7 +25,11 @@ module.exports = {
         foreground: "hsl(var(--foreground))",
         primary: "var(--primary)",
         primary_dark: "var(--primary-dark)",
+        primary_transparent: "var(--primary-transparent)",
+        primary_transparent_plus: "var(--primary-transparent-plus)",
         secondary: "var(--secondary)",
+        secondary_transparent: "var(--secondary-transparent)",
+        secondary_transparent_plus: "var(--secondary-transparent-plus)",
         background: "var(--background)",
         background_light: "var(--background-light)",
         destructive: {
