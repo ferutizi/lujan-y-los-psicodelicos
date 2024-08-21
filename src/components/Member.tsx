@@ -1,3 +1,4 @@
+import './Member.css'
 import { useEffect } from "react"
 import InstagramIcon from "./InstagramIcon"
 
